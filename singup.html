@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+    }
+
+    body {
+        background: linear-gradient(135deg, #6a11cb, #2575fc);
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .form-container {
+        background: #fff;
+        padding: 40px 30px;
+        width: 350px;
+        border-radius: 20px;
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+        text-align: center;
+    }
+
+    .form-container h2 {
+        margin-bottom: 20px;
+        color: #333;
+        font-weight: 600;
+    }
+
+    form input {
+        width: 100%;
+        padding: 12px 15px;
+        margin: 10px 0;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        outline: none;
+        font-size: 14px;
+        transition: all 0.3s ease;
+    }
+
+    form input:focus {
+        border-color: #2575fc;
+        box-shadow: 0 0 5px rgba(37, 117, 252, 0.5);
+    }
+
+    button {
+        width: 100%;
+        background: #2575fc;
+        color: #fff;
+        padding: 12px;
+        border: none;
+        border-radius: 10px;
+        font-size: 16px;
+        font-weight: 500;
+        cursor: pointer;
+        transition: background 0.3s ease;
+        margin-top: 10px;
+    }
+
+    button:hover {
+        background: #1a5dd8;
+    }
+
+    p {
+        margin-top: 15px;
+        color: #555;
+        font-size: 14px;
+    }
+
+    p span a {
+        color: #2575fc;
+        text-decoration: none;
+        font-weight: 500;
+    }
+
+    p span a:hover {
+        text-decoration: underline;
+    }
+</style>
+
+<body>
+
+
+    <div class="form-container">
+        <h2>Create Account</h2>
+        <form>
+            <input type="text" name="name" placeholder="Enter your name" required>
+            <input type="email" name="email" placeholder="Enter your email address" required>
+            <input type="tel" name="phone" placeholder="Enter your phone number" required>
+            <input type="password" name="password" placeholder="Enter your password" required>
+
+            <button type="submit">Register</button>
+
+            <p>Already have an account?
+                <span><a href="Login.html">Login</a></span>
+            </p>
+        </form>
+    </div>
+
+</body>
+
+</html>
