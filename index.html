@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Signup Page</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 
@@ -92,7 +92,7 @@
     font-size: 11px;
     font-weight: 600;
     border-radius: 8px;
-    border: 2px solid rgb(70, 14, 224);
+    border: 2px solid rgb(24, 24, 25);
     cursor: pointer;
     transition: 0.3s;
     text-decoration: none;
@@ -104,7 +104,8 @@
     }
 
     .btn-signup:hover {
-        color: #2a9d8f;
+       background-color: #10a50d;
+       color: #000;
     }
 
     .btn-login {
@@ -112,7 +113,8 @@
     }
 
     .btn-login:hover {
-        color: #e63946;
+        background-color: #e63946;
+        color: #000;
     }
 
     .Main_container {
@@ -181,12 +183,19 @@
     }
 
     .get_star {
-        background-color: #2b1ce8;
+        background-color: #1db909;
         color: white;
         padding: 11px;
-        border-radius: 5px;
+        border: 2px solid blue;
+        font-size: 14px;
+        border-radius: 6px;
         position: relative;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
         justify-content: center;
+    }
+    .get_star:hover{
+         transform: translateY(-5px);
+        box-shadow: 0 8px 18px rgba(0, 0, 0, 0.2);
     }
 
     .image-container {
@@ -228,7 +237,7 @@
         <a href="Document">Document</a>
         <a href="details">Details</a>
         <a style="margin: 2px; position: relative;top:16px;" href="signup.html" class="btn btn-signup">Signup</a>
-        <a style="margin: 7px; position: relative; top: 16px;" href="login.html" class="btn btn-login">Login</a>
+        <a style="margin: 7px; position: relative; top: 16px;" href="Login.html" class="btn btn-login">Login</a>
 
     </nav>
     <div class="Main_container">

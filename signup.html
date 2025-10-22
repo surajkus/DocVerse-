@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Page</title>
+    <title>Signup page</title>
 </head>
 <style>
     * {
@@ -18,13 +18,13 @@
 
     .form-container {
         padding: 40px 30px;
-        width: 70%;
+        width: 80%;
         border-radius: 20px;
         /* border-radius: 20px; */
         box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
         text-align: center;
-        height: 400px;
-        margin: 80px;
+        height: 560px;
+        margin-left: 50px;
     }
 
     .form-container h2 {
@@ -84,11 +84,12 @@
     }
 
     .main_conatiner {
-       display: flex;
-       /* background-color: #16aaa0; */
+        /* width: 100%; */
+        /* border: 2px 2px 2px 2px solid black; */
+        margin-bottom: 10px;
+        
+        display: flex;
     }
-    
-    
     .left_container{
        width: 50%;
        margin: 0px;
@@ -176,12 +177,14 @@
         color: rgb(62, 61, 61);
     }
 
+    
     .btn-signup {
         background-color: #f3f6f5;
     }
 
     .btn-signup:hover {
-        color: #2a9d8f;
+       background-color: #10a50d;
+       color: #000;
     }
 
     .btn-login {
@@ -189,9 +192,9 @@
     }
 
     .btn-login:hover {
-        color: #e63946;
+        background-color: #e63946;
+        color: #000;
     }
-   
     .btn_get{
         /* width: 100vh; */
         /* background-color: #333; */
@@ -219,17 +222,17 @@
         </div>
         <div class="right_container">
             <div class="form-container">
-                <h2>Login Page</h2>
+                <h2>Create Account</h2>
                 <form>
-                    <!-- <input type="text" name="name" placeholder="Enter your name" required> -->
+                    <input type="text" name="name" placeholder="Enter your name" required>
                     <input type="email" name="email" placeholder="Enter your email address" required>
-                    <!-- <input type="tel" name="phone" placeholder="Enter your phone number" required> -->
+                    <input type="tel" name="phone" placeholder="Enter your phone number" required>
                     <input type="password" name="password" placeholder="Enter your password" required>
 
                     <button type="submit">Register</button>
 
-                    <p>DO you  have on account?
-                        <span><a href="signup.html">signup Page</a></span>
+                    <p>Already have an account?
+                        <span><a href="Login.html">Login</a></span>
                     </p>
                 </form>
             </div>
