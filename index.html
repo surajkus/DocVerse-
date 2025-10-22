@@ -20,9 +20,9 @@
         width: 100%;
         height: 60px;
         z-index: 1000;
-        position:fixed;
+        position: fixed;
         text-align: end;
-        background: #d9d4d4;
+        background: rgb(89, 14, 360);
     }
     
     nav a {
@@ -30,21 +30,21 @@
         /* padding: 30px; */
         position: relative;
         top: 20px;
+        color: white;
         font-size: 18px;
+        margin-right: 10px;
         text-decoration: none;
 
     }
 
     nav a:hover {
-        color: #022f5f;
-
+        color: orchid;
         box-shadow: 0px 2px 0px 0px;
 
     }
 
     body {
         font-family: 'Poppins', sans-serif;
-
         margin: 0;
         padding: 0;
         color: #333;
@@ -63,15 +63,15 @@
         font-weight: 600;
         font-size: 32px;
         position: relative;
-        top:40px;
+        top: 40px;
     }
 
     .tagline {
         text-align: center;
-        font-size: 16px;
+        font-size: 14px;
         z-index: 200;
         position: relative;
-        top:80px;
+        top: 30px;
         font-family: 'Times New Roman', Times, serif;
         color: #555;
     }
@@ -82,16 +82,56 @@
 
     }
 
+    
+    .btn-container {
+        display: flex;
+
+    }
+    .btn {
+       padding: 5px;
+    font-size: 11px;
+    font-weight: 600;
+    border-radius: 8px;
+    border: 2px solid rgb(70, 14, 224);
+    cursor: pointer;
+    transition: 0.3s;
+    text-decoration: none;
+    color: rgb(62, 61, 61);
+    }
+
+    .btn-signup {
+        background-color: #f3f6f5;
+    }
+
+    .btn-signup:hover {
+        color: #2a9d8f;
+    }
+
+    .btn-login {
+        background-color: #f7f1f2;
+    }
+
+    .btn-login:hover {
+        color: #e63946;
+    }
+
     .Main_container {
+
+        /* background: rgb(240, 248, 255); */
 
     }
 
+
+
     .img_logo {
         display: flex;
-        width: 100%;
+        width: 90vw;
+        height: 80vh;
         justify-items: center;
         position: relative;
-        bottom: 80px;
+        margin-left: 40px;
+        border-radius: 10px;
+        bottom: 70px;
 
     }
 
@@ -103,7 +143,8 @@
         /* margin-bottom: 18px; */
         font-family: system-ui;
         letter-spacing: 2px;
-        margin-top: 20px;
+        /* margin-top: -30px; */
+        
     }
 
     h2 {
@@ -131,6 +172,44 @@
         color: #222;
     }
 
+    .btns {
+        width: 100%;
+    }
+
+    .btn_l {
+        margin: 0px;
+    }
+
+    .get_star {
+        background-color: #2b1ce8;
+        color: white;
+        padding: 11px;
+        border-radius: 5px;
+        position: relative;
+        justify-content: center;
+    }
+
+    .image-container {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        gap: 15px;
+    }
+
+    .imgbox {
+        width: 180px;
+        height: 180px;
+        border-radius: 10px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        cursor: pointer;
+    }
+
+    .imgbox:hover {
+        transform: scale(1.08);
+        box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
+    }
+
+
     footer {
         text-align: center;
         margin-top: 20px;
@@ -146,8 +225,11 @@
     <nav>
         <a href="Home">Home</a>
         <a href="Contact">Contact</a>
-        <a href="Domcoment">Docment</a>
+        <a href="Document">Document</a>
         <a href="details">Details</a>
+        <a style="margin: 2px; position: relative;top:16px;" href="signup.html" class="btn btn-signup">Signup</a>
+        <a style="margin: 7px; position: relative; top: 16px;" href="login.html" class="btn btn-login">Login</a>
+
     </nav>
     <div class="Main_container">
         <div class="container">
@@ -180,6 +262,16 @@
                 watermarking,
                 smart compression, and cloud save features.
             </p>
+            <div class="btns">
+               <a href="secondPage.html" ><button class="get_star">Get Started 👉</button></a>
+
+            </div>
+            <div style="display: flex; display: flex;justify-content: center;width: 98%;">
+                <img class="imgbox" src="/photo/pdf to png.webp" alt="">
+                <img class="imgbox" src="/photo/textEditor.webp" alt="">
+                <img class="imgbox" src="/photo/comimage.png" alt="">
+                <img class="imgbox" src="/photo/pdftojpg.png" alt="">
+            </div>
 
 
             <footer>

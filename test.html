@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Select File Button</title>
+  <style>
+    .upload-btn {
+      display: inline-block;
+      background-color: #007bff;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+      text-align: center;
+    }
+
+    .upload-btn:hover {
+      background-color: #0056b3;
+    }
+
+    /* Hide the default file input */
+    input[type="file"] {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Hidden file input -->
+  <input type="file" id="fileUpload">
+
+  <!-- Label used as button -->
+  <label for="fileUpload" class="upload-btn">Select File</label>
+
+</body>
+</html>
