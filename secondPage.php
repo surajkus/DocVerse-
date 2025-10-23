@@ -77,7 +77,7 @@
 
     .btn-signup:hover {
        background-color: #10a50d;
-       color: #000;
+       color: #2208b7;
     }
 
     .btn-login {
@@ -137,6 +137,14 @@
         position: relative;
         justify-content: center;
     }
+      footer {
+       text-align: center;
+        margin-top: 20px;
+        color: #777;
+        height: 100px;
+        background: #d9d4d4;
+        font-size: 14px;
+    }
 </style>
 
 <body>
@@ -161,11 +169,15 @@
         
 
         <div class="btns">
-               <a href="MainPages.html" ><button class="get_star"> Starting</button></a>
+               <a href="MainPages.php" ><button class="get_star"> Starting</button></a>
 
             </div>
 </div>
     </div>
+<br><br><br><br><br><br><br><br><br>
+    <footer>
+                © 2025 DocVision Project — All Rights Reserved
+            </footer>
 </body>
 
 </html>

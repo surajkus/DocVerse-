@@ -176,12 +176,14 @@
         color: rgb(62, 61, 61);
     }
 
+    
     .btn-signup {
         background-color: #f3f6f5;
     }
 
     .btn-signup:hover {
-        color: #2a9d8f;
+       background-color: #10a50d;
+       color: #2308d2;
     }
 
     .btn-login {
@@ -189,7 +191,8 @@
     }
 
     .btn-login:hover {
-        color: #e63946;
+        background-color: #e63946;
+        color: #000;
     }
    
     .btn_get{
@@ -212,7 +215,7 @@
     <div class="main_conatiner">
         <div class="left_container">
            <p class="pss">Welcome to <span style="color: #2575fc;">DocVerse</span></p><br><br>
-           <img src="/photo/pngtree-pdf-document-download-on-the-laptop-concept-png-image_7845791.png" alt="">
+           <img src="./photo/pngtree-pdf-document-download-on-the-laptop-concept-png-image_7845791.png" alt="">
        <span style="padding: 20px;color: #2575fc; text-align: center;">This project is a PDF and Image Editing and Conversion Tool.......</span>
        
        
@@ -220,16 +223,16 @@
         <div class="right_container">
             <div class="form-container">
                 <h2>Login Page</h2>
-                <form>
+                <form action= "login_checker.php" method="POST">
                     <!-- <input type="text" name="name" placeholder="Enter your name" required> -->
                     <input type="email" name="email" placeholder="Enter your email address" required>
                     <!-- <input type="tel" name="phone" placeholder="Enter your phone number" required> -->
                     <input type="password" name="password" placeholder="Enter your password" required>
 
-                    <button type="submit">Register</button>
+                    <button type="submit">Login</button>
 
                     <p>DO you  have on account?
-                        <span><a href="signup.html">signup Page</a></span>
+                        <span><a href="signup.php">signup Page</a></span>
                     </p>
                 </form>
             </div>

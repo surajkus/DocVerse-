@@ -77,7 +77,7 @@
 
     .btn-signup:hover {
        background-color: #10a50d;
-       color: #000;
+       color: #4008b1;
     }
 
     .btn-login {
@@ -194,6 +194,14 @@
         display: flex;
        
     }
+      footer {
+        text-align: center;
+        margin-top: 20px;
+        color: #777;
+        height: 100px;
+        background: #d9d4d4;
+        font-size: 14px;
+    }
 </style>
 
 <body>
@@ -216,34 +224,39 @@
     <div class="allboxes">
         <div class="box1">
             <h3>PDF to Image</h3>
-            <img class="imgs" src="/photo/pdftojpg.png" alt="PDF to Image">
+            <img class="imgs" src="./photo/pdftojpg.png" alt="PDF to Image">
             <a href="uploadfile.html"><button>Click Here</button></a>
         </div>
 
         <div class="box1">
             <h3>Image comperrsion</h3>
-            <img class="imgs" src="/photo/comimage.png" alt="PDF to Image">
-           <a href="uploadfile.html"><button>Click Here</button></a>
+            <img class="imgs" src="./photo/comimage.png" alt="PDF to Image">
+           <a href="uploadfile.php"><button>Click Here</button></a>
         </div>
         <div class="box1">
             <h3>Image Text converter</h3>
-            <img class="imgs" src="/photo/textEditor.webp" alt="PDF to Image">
-           <a href="uploadfile.html"><button>Click Here</button></a>
+            <img class="imgs" src="./photo/textEditor.webp" alt="PDF to Image">
+           <a href="uploadfile.php"><button>Click Here</button></a>
         </div>
         <div class="box1">
             <h3>PDF to JPG</h3>
-            <img class="imgs" src="/photo/pdf to png.webp" alt="PDF to Image">
-<a href="uploadfile.html"><button>Click Here</button></a>
+            <img class="imgs" src="./photo/pdf to png.webp" alt="PDF to Image">
+<a href="uploadfile.php"><button>Click Here</button></a>
         </div>
         <div class="box1">
             <h3>Word to Image</h3>
-            <img class="imgs" src="/photo/wtojpg.jpeg" alt="PDF to Image">
-            <a href="uploadfile.html"><button>Click Here</button></a>
+            <img class="imgs" src="./photo/wtojpg.jpeg" alt="PDF to Image">
+            <a href="uploadfile.php"><button>Click Here</button></a>
         </div>
 
 
 
     </div>
+
+
+    <footer>
+                © 2025 DocVision Project — All Rights Reserved
+            </footer>
 
 </body>
 

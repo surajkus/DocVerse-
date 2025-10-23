@@ -38,7 +38,7 @@
     }
 
     nav a:hover {
-        color: orchid;
+        color: #16aaa0;
         box-shadow: 0px 2px 0px 0px;
 
     }
@@ -105,7 +105,7 @@
 
     .btn-signup:hover {
        background-color: #10a50d;
-       color: #000;
+       color: #450adb;
     }
 
     .btn-login {
@@ -232,7 +232,7 @@
 
 <body>
     <nav>
-        <a href="Home">Home</a>
+        <a href="index.html">Home</a>
         <a href="Contact">Contact</a>
         <a href="Document">Document</a>
         <a href="details">Details</a>
@@ -245,7 +245,7 @@
             <h1>PDF & Image Processing Tool</h1>
             <p class="tagline">Smart Document Tools — Fast • Simple • Powerful</p>
 
-            <img class="img_logo" src="/photo/aiease_1761107034149.jpg" alt="">
+            <img class="img_logo" src="./photo/aiease_1761107034149.jpg" alt="">
             <p>
                 This web-based application provides essential tools for working with PDF documents and images.
                 It is built to offer high performance, accuracy, and ease of use. Whether you're a student,
@@ -272,14 +272,14 @@
                 smart compression, and cloud save features.
             </p>
             <div class="btns">
-               <a href="secondPage.html" ><button class="get_star">Get Started 👉</button></a>
+               <a href="secondPage.php" ><button class="get_star">Get Started 👉</button></a>
 
             </div>
             <div style="display: flex; display: flex;justify-content: center;width: 98%;">
-                <img class="imgbox" src="/photo/pdf to png.webp" alt="">
-                <img class="imgbox" src="/photo/textEditor.webp" alt="">
-                <img class="imgbox" src="/photo/comimage.png" alt="">
-                <img class="imgbox" src="/photo/pdftojpg.png" alt="">
+                <img class="imgbox" src="./photo/pdf to png.webp" alt="">
+                <img class="imgbox" src="./photo/textEditor.webp" alt="">
+                <img class="imgbox" src="./photo/comimage.png" alt="">
+                <img class="imgbox" src="./photo/pdftojpg.png" alt="">
             </div>
 
 

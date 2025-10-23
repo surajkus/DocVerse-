@@ -184,7 +184,7 @@
 
     .btn-signup:hover {
        background-color: #10a50d;
-       color: #000;
+       color: #3f06dd;
     }
 
     .btn-login {
@@ -193,7 +193,7 @@
 
     .btn-login:hover {
         background-color: #e63946;
-        color: #000;
+        color: #0b0b0b;
     }
     .btn_get{
         /* width: 100vh; */
@@ -215,7 +215,7 @@
     <div class="main_conatiner">
         <div class="left_container">
            <p class="pss">Welcome to <span style="color: #2575fc;">DocVerse</span></p><br><br>
-           <img src="/photo/pngtree-pdf-document-download-on-the-laptop-concept-png-image_7845791.png" alt="">
+           <img src="./photo/pngtree-pdf-document-download-on-the-laptop-concept-png-image_7845791.png" alt="">
        <span style="padding: 20px;color: #2575fc; text-align: center;">This project is a PDF and Image Editing and Conversion Tool.......</span>
        
        
@@ -223,7 +223,7 @@
         <div class="right_container">
             <div class="form-container">
                 <h2>Create Account</h2>
-                <form>
+                <form action="signup_checker.php" method="Post">
                     <input type="text" name="name" placeholder="Enter your name" required>
                     <input type="email" name="email" placeholder="Enter your email address" required>
                     <input type="tel" name="phone" placeholder="Enter your phone number" required>
@@ -232,7 +232,7 @@
                     <button type="submit">Register</button>
 
                     <p>Already have an account?
-                        <span><a href="Login.html">Login</a></span>
+                        <span><a href="Login.php">Login</a></span>
                     </p>
                 </form>
             </div>

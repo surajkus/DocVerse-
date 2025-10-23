@@ -36,7 +36,7 @@
     }
 
     nav a:hover {
-        color: #16aaa0;
+        color:#16aaa0;
         box-shadow: 0px 2px 0px 0px;
 
     }
@@ -73,7 +73,7 @@
 
     .btn-signup:hover {
        background-color: #10a50d;
-       color: #000;
+       color: #3f09be;
     }
 
     .btn-login {
@@ -98,7 +98,7 @@
       display: inline-block;
       background-color: #f86f15;
       color: white;
-      width: 120px;
+      width: 150px;
       padding: 10px 20px;
       border-radius: 5px;
       cursor: pointer;
@@ -113,6 +113,14 @@
     /* Hide the default file input */
     input[type="file"] {
       display: none;
+    }
+      footer {
+        text-align: center;
+        margin-top: 20px;
+        color: #777;
+        height: 100px;
+        background: #d9d4d4;
+        font-size: 14px;
     }
 </style>
 <body>
@@ -130,9 +138,13 @@
      <input type="file" id="fileUpload">
      
      <!-- Label used as button -->
-     <label for="fileUpload" class="upload-btns">Select File</label> 
+     <label for="fileUpload" class="upload-btns">Select File </label> 
     </div>
 
+
+    <footer>
+                © 2025 DocVision Project — All Rights Reserved
+            </footer>
 
 </body>
 </html>
