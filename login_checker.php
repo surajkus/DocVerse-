@@ -14,8 +14,13 @@ $count =mysqli_num_rows($sql_run);
 if($count==1){
     header('Location: index.php');
 }
+else{
+    echo 'Password incorrect';
+}
+
 }
 else{
-echo 'user not exist';
+echo 'user not exist
+ ';
 }
 ?>

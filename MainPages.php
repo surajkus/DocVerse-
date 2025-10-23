@@ -206,7 +206,7 @@
 
 <body>
     <nav>
-        <a href="index.html">Home</a>
+        <a href="index.php">Home</a>
         <a href="Contact">Contact</a>
         <a href="Document">Document</a>
         <a href="details">Details</a>
@@ -225,7 +225,7 @@
         <div class="box1">
             <h3>PDF to Image</h3>
             <img class="imgs" src="./photo/pdftojpg.png" alt="PDF to Image">
-            <a href="uploadfile.html"><button>Click Here</button></a>
+            <a href="uploadfile.php"><button>Click Here</button></a>
         </div>
 
         <div class="box1">
@@ -252,7 +252,7 @@
 
 
     </div>
-
+<br><br><br><br><br><br><br><br>
 
     <footer>
                 © 2025 DocVision Project — All Rights Reserved

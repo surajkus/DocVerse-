@@ -232,7 +232,8 @@
 
 <body>
     <nav>
-        <a href="index.html">Home</a>
+        <!-- <h3>DocVerse</h3> -->
+        <a href="index.php">Home</a>
         <a href="Contact">Contact</a>
         <a href="Document">Document</a>
         <a href="details">Details</a>
