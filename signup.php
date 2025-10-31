@@ -138,7 +138,7 @@
         margin: 40px;
         /* padding: 30px; */
         position: relative;
-        top: 20px;
+        top: 25px;
         color: white;
         font-size: 18px;
         margin-right: 10px;
@@ -209,8 +209,8 @@
         <a href="Contact">Contact</a>
         <a href="Document">Document</a>
         <a href="details">Details</a>
-        <a style="margin: 2px; position: relative;top:16px;" href="signup.html" class="btn btn-signup">Signup</a>
-        <a style="margin: 7px; position: relative; top: 16px;" href="login.html" class="btn btn-login">Login</a>
+        <a style="margin: 2px; position: relative;top:20px;" href="signup.html" class="btn btn-signup">Signup</a>
+        <a style="margin: 7px; position: relative; top: 20px;" href="login.html" class="btn btn-login">Login</a>
     </nav><br><br><br>1 
     <div class="main_conatiner">
         <div class="left_container">
